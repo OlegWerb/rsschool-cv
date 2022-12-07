@@ -1,16 +1,16 @@
 [Rsschool-cv](https://OlegWerb.github.io/rsschool-cv/cv)
->
+
 # Oleg Verbovetskyy
->
+
 # Contact:
 * __Adress:__ Poznan, Poland
 * __Phone:__ +380674762454
 * __E-mail:__ werbowetski89@gmail.com
 * __GitHub:__ OlegWerb
->
+
 # About Me
 I am a family man. I like to learn new things, and a good table tennis player.
->
+
 # Skills
 + Python
 + Git/github
@@ -18,7 +18,7 @@ I am a family man. I like to learn new things, and a good table tennis player.
 + MS Office
 + HTTP
 + CSS
->
+
 # Code Example
 ```
 def send_message():
