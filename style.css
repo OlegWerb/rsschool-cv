@@ -1,0 +1,44 @@
+
+@font-face
+{
+    font-family: Roboto;
+    src:url("fonts/Roboto-Light.ttf");
+}
+
+.body {
+    margin: 0; padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+.header
+{
+    border:10px solid red;
+} 
+
+.main
+{
+    background-color: rgb(171, 173, 174);
+    height: auto;
+    width: auto;
+}
+
+.footer
+{
+    
+    padding-left: 25%;
+    background-color: rgb(171, 173, 174);
+} 
+
+a.githublink
+{
+    font-size: large;
+    color: white;
+}
+
+a.githublink:hover
+{
+    color: greenyellow;
+}
