@@ -20,6 +20,9 @@
 
 .main
 {
+    color: white;
+    border: solid greenyellow;
+    border-width: 5px 5px 0px 5px;
     background-color: rgb(171, 173, 174);
     height: auto;
     width: auto;
@@ -28,13 +31,16 @@
 .footer
 {
     
-    padding-left: 25%;
+    border: 5px solid greenyellow;
+    padding: 20px;
     background-color: rgb(171, 173, 174);
 } 
 
 a.githublink
 {
-    font-size: large;
+    
+    padding-left: 25%;
+    font-size: 30px;
     color: white;
 }
 
@@ -42,3 +48,11 @@ a.githublink:hover
 {
     color: greenyellow;
 }
+
+.rss_logo
+{
+    padding-right: 25%;
+    float: right;
+    width: 100px; 
+}
+
