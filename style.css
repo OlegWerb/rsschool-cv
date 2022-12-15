@@ -1,0 +1,89 @@
+
+@font-face
+{
+    font-family: Roboto;
+    src:url("fonts/Roboto-Light.ttf");
+}
+
+.body {
+    margin: 0; padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato';
+  }
+
+.header
+{
+    border: solid greenyellow;
+    border-width: 5px 5px 0px 5px;
+    padding: 20px;
+    background-color: rgb(171, 173, 174);
+} 
+
+.main
+{
+    padding: 20px;
+    color: white;
+    border: solid greenyellow;
+    border-width: 5px 5px 0px 5px;
+    background-color: rgb(171, 173, 174);
+    height: auto;
+    width: auto;
+}
+
+h1
+{
+    color: greenyellow;
+}
+
+
+pre
+{
+    background-color: whitesmoke;
+    float: right;
+    color: black;
+}
+
+#foto
+{
+    border: solid greenyellow;
+    float: right;  
+}
+
+.My_projects
+{
+    height: 20px;
+    width: 20px;
+}
+
+
+.footer
+{
+    
+    border: 5px solid greenyellow;
+    padding: 20px;
+    background-color: rgb(171, 173, 174);
+} 
+
+a.githublink
+{
+    
+    padding-left: 25%;
+    font-size: 30px;
+    color: white;
+}
+
+a.githublink:hover
+{
+    color: greenyellow;
+}
+
+.rss_logo
+{
+    padding-right: 25%;
+    float: right;
+    width: 100px; 
+}
+
