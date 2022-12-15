@@ -20,6 +20,7 @@
 
 .main
 {
+    padding: 20px;
     color: white;
     border: solid greenyellow;
     border-width: 5px 5px 0px 5px;
@@ -27,6 +28,28 @@
     height: auto;
     width: auto;
 }
+
+h1
+{
+    color: greenyellow;
+}
+
+
+pre
+{
+    float: right;
+    color: black;
+}
+
+#foto
+{
+    
+    padding-top: 50px;
+    float: right;
+    height: 35%;
+    width: 35%;
+}
+
 
 .footer
 {
