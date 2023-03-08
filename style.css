@@ -1,12 +1,9 @@
 
-@font-face
-{
-    font-family: Roboto;
-    src:url("fonts/Roboto-Light.ttf");
-}
+
 
 .body {
-    margin: 0; padding: 0;
+    margin: 0 auto; 
+    padding: 0 auto;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,11 +13,22 @@
 
 .header
 {
+    
     border: solid greenyellow;
     border-width: 5px 5px 0px 5px;
     padding: 20px;
     background-color: rgb(171, 173, 174);
 } 
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header__item{
+    margin-right: 47px;
+}
 
 .main
 {
