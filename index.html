@@ -48,16 +48,16 @@
       <a href="file:///C:/Users/%D0%9E%D0%BB%D0%B5%D0%B3/Desktop/rs-school/rsschool-cv/index.htmll">CV</a>
       <pre><code><b>Code Example</b>
       def send_message():
-      if label[&quot;background&quot;] == &quot;red&quot;:
-      spend_time = round(time.time() - start_time, 3)
+      if label[&quot;background&quot;]==&quot;red&quot;:
+      spend_time=round(time.time() - start_time, 3)
       result.config(text=f&quot;Your reaction: {spend_time} s.&quot;)
-      var = entry.get()
+      var=entry.get()
       result_3.config(
       text=f&quot;{var}, {spend_time} s.&quot;)
       else:
       wrong_click = &quot;Try again&quot;
       result.config(text=wrong_click)
-      wrong = wrong + 1
+      wrong=wrong + 1
       label_wrong.config(text=f&quot;Mistake: {wrong}&quot;)
       label.config(background=&quot;grey&quot;)
       window.update()
@@ -74,7 +74,7 @@
           <ul>
             <li>Spatial economy</li>
           </ul>
-        </li>    
+        </li>
         <li>Hillel IT school
           <ul>
             <li>Python basic</li>
